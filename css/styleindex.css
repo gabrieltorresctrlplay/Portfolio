@@ -1,0 +1,41 @@
+body,
+html {
+    background-color: rgb(39, 39, 39);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 100vw;
+    height: 5vh;
+
+    background-color: rgb(255, 255, 255);
+}
+
+header button {
+    min-width: 120px;
+    padding: 10px 30px;
+    border: none;
+    stroke: 5px black;
+    border-radius: 5px;
+    background-color: #003558;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin: 0 7px;
+}
+
+header img {
+    width: 100px;
+    cursor: pointer;
+    max-height: 35px;
+}
+
+.ladoEsquerdo {
+    display: flex;
+    align-items: center;
+}
