@@ -1,24 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Gabriel Rodrigues | Portfólio Robótica & Jogos</title>
+
         <link rel="stylesheet" href="./css/stylereset.css" />
         <link rel="stylesheet" href="./css/styleindex.css" />
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://gabrieltorresctrlplay.github.io/portfolio/"
+        />
+        <meta
+            property="og:title"
+            content="Gabriel Rodrigues | Portfólio Game Dev"
+        />
+        <meta
+            property="og:description"
+            content="Confira meus projetos em Scratch, Kodu e Robótica."
+        />
+        <meta
+            property="og:image"
+            content="https://gabrieltorresctrlplay.github.io/portfolio/assets/images/preview.jpg"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:title"
+            content="Gabriel Rodrigues | Portfólio Game Dev"
+        />
+        <meta
+            property="twitter:description"
+            content="Confira meus projetos em Scratch, Kodu e Robótica."
+        />
     </head>
     <body>
-        <header>
-            <div class="ladoEsquerdo">
-                <img src="./assets/images/Ctrl_Play_Logo_2016.svg" alt="Logo" />
-                <button>INÍCIO</button>
-                <a href="index2.html"><button>NOTÍCIAS</button></a>
-            </div>
-            <div>
-                <button>PERFIL</button>
-                <button>LOJA</button>
-                <button>TROCA</button>
+        <header class="glass-header">
+            <div class="container">
+                <img
+                    src="./assets/images/print_scratch.jpg"
+                    alt="Logo Gabriel"
+                    class="logo"
+                />
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#sobre">Sobre Mim</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
+
+        <main>
+            <section id="inicio" class="hero">
+                <div class="hero-content">
+                    <h1>Gabriel Rodrigues</h1>
+                    <h2>Instrutor de Robótica & Game Dev</h2>
+                    <p>Criando mundos interativos com Scratch e Kodu Labs.</p>
+                    <a href="#projetos" class="cta-btn">Ver Projetos</a>
+                    <div class="social-links">
+                        <a
+                            href="https://linkedin.com/in/SEU_USUARIO"
+                            target="_blank"
+                            class="social-btn"
+                            >LinkedIn</a
+                        >
+                        <a
+                            href="https://github.com/gabrieltorresctrlplay"
+                            target="_blank"
+                            class="social-btn"
+                            >GitHub</a
+                        >
+                        <a
+                            href="gabriel.torres.ctrlplay@gmail.com"
+                            class="social-btn"
+                            >Email</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section id="projetos" class="projects-section">
+                <h2 class="section-title">Meus Jogos e Mundos</h2>
+
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="card-image placeholder"></div>
+                        <div class="card-info">
+                            <h3>Aventura no Espaço</h3>
+                            <span class="tag">Scratch</span>
+                            <p>
+                                Um jogo de plataforma onde você explora
+                                planetas.
+                            </p>
+
+                            <a
+                                href="LINK_DO_SEU_JOGO_AQUI"
+                                target="_blank"
+                                class="play-link"
+                            >
+                                Jogar Agora <span>&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="card-image placeholder"></div>
+                        <div class="card-info">
+                            <h3>Corrida Radical</h3>
+                            <span class="tag">Kodu Labs</span>
+                            <p>Simulação de corrida 3D com IA avançada.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Gabriel Rodrigues. Desenvolvido com Criatividade.</p>
+        </footer>
+
+        <script src="./js/main.js"></script>
+        <script src="./js/p5.js"></script>
     </body>
 </html>
