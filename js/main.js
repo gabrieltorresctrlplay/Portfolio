@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Portfolio carregado com sucesso! 🚀")
 
-    // Rolagem Suave (Smooth Scroll) para links internos
     document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault()
@@ -17,7 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 
-    // Efeito extra: Navbar fica mais escura ao rolar para baixo
     const header = document.querySelector("header")
     window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
